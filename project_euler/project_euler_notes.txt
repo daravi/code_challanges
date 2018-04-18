@@ -1,0 +1,47 @@
+ attribute: any name following a dot
+ 
+ name1.name2.name3
+ 
+ each namei lives in a namespace of different level.
+ 
+ 
+ To Do:
+ - Set a timer (implemented in your template) that terminates program if it runs over 60s.
+ - Create your package
+ - Create test packages
+ - Write a sieve function that can accomodate both problem 10 and problem 23
+ - Optimize P023 to run under 1 minute
+ - In P026 can you avoid using remainders and only use quotients?
+ - Create a template
+ - Optimize P027 to run under 1 minute
+ - Generate the dictionary and prove the answer for P030 
+ - Clean up P031
+ - Clean up P037, optimize to run under 1 minute
+ - For P042 come up with a nicer way to read data so no need to eliminate double quotes
+ - Optimize P043
+ - P043 correct but what if number is: '0...'
+ - P044: Optimize and prove optimality
+ - Optimize P049 to run under a minute
+ - Optimize P050 to run under a minute
+
+pythonista!!
+ 
+ Problem 15:
+ - Memorization is a top down tenchnique catching results for later use, for example using a dictionary.
+ (so that each result is calculated only once)
+ - Try to avoid unnecessary dictionary checks and 'quit' early.
+ - If you have memory limitation use an iterative solution and only keep ones you need to build the next 
+   layer of calculations.
+ - The buttom-up technique is called dynamica programming.
+ - m+n choose m is called a combination. Combinatorial: branch of math that utelizes combinations.
+ 
+ Problem 24:
+ - lambda
+ - filter
+ - map
+ - reduce
+ - str.isdigit
+ - repr
+ - enumerate
+ 
+ Allocating memory for a big variable takes time! Ex see problem 46
